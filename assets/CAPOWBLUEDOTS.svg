@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 148.51 101.51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2e3192;
+      }
+    </style>
+  </defs>
+  <g id="FINAL">
+    <g id="LOGO">
+      <g>
+        <ellipse class="cls-1" cx="67.55" cy="86.64" rx="6.29" ry="46.36" transform="translate(-19.97 153.05) rotate(-89.25)"/>
+        <image width="526" height="570" transform="translate(26.15) scale(.18)" xlink:href="../oboe 2.png"/>
+        <g>
+          <circle class="cls-1" cx="5.73" cy="50.76" r="5.73"/>
+          <circle class="cls-1" cx="142.78" cy="50.76" r="5.73"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

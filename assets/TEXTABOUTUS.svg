@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 543.37 91.53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2e3192;
+      }
+
+      .cls-2 {
+        fill: #d9ad5b;
+        font-family: ProximaNova-Black, 'Proxima Nova';
+        font-size: 48px;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <g id="ABOUT_US">
+    <g id="TEXT">
+      <g>
+        <rect class="cls-1" x="0" y="0" width="543.37" height="91.53" rx="45.76" ry="45.76"/>
+        <text class="cls-2" transform="translate(147.3 61.7)"><tspan x="0" y="0">ABOUT US</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

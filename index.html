@@ -1,32 +1,608 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAESTRO'S JACKS</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG Example</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #555;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 10px;
-            border: 1px solid #ddd;
-            background-color: #f9f9f9;
-        }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
+        /* Apply to all header tags */
+        font-family: "Proxima Nova", sans-serif;
+        /* Font family with fallback */
+      }
+
+      .container {
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        /* Center items vertically */
+
+        margin-left: -3%;
+        margin-right: -3%;
+      }
+
+      #bg1 {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        left: 0;
+        z-index: -1;
+      }
+
+      #top_bar {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2%;
+      }
+
+      .comesoon {
+        position: relative;
+        display: flex;
+        /* Use flexbox layout */
+        justify-content: center;
+        /* Center items horizontally */
+        align-items: center;
+        /* Center items vertically */
+        gap: 10px;
+        width: 100%;
+        /* Adjust width as needed */
+        height: auto;
+        /* Maintain aspect ratio */
+        padding-top: 5%;
+      }
+
+      .comesoon img {
+        margin-top: -15%;
+      }
+
+      #blu_c {
+        padding-top: 20%;
+      }
+
+      #sw_letters {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -15%;
+        width: 100%;
+        z-index: 2;
+      }
+
+      #sw_letters img {
+        display: flex;
+      }
+
+      #blue_bg_img1 {
+        position: relative;
+        width: 100%;
+        z-index: -1;
+        margin-top: -10%;
+      }
+
+      .blue_bg {
+        position: absolute;
+        top: 0%;
+        display: flex;
+        /* Use flexbox layout */
+        justify-content: center;
+        /* Center items horizontally */
+        align-items: center;
+        /* Center items vertically */
+        gap: 10px;
+        width: 100%;
+        z-index: 5;
+      }
+
+      #blue_bg_img2 {
+        position: relative;
+        display: flex;
+        top: 3%;
+        left: 5%;
+      }
+
+      #blue_bg_img3 {
+        position: relative;
+        top: 3%;
+        right: 2.5%;
+      }
+
+      #blue_bg_img4 {
+        position: relative;
+        padding-top: 20%;
+        left: 3%;
+      }
+
+      #blue_left {
+        position: absolute;
+        top: 4%;
+        width: 30%;
+        left: 0%;
+        display: flex;
+        /* Use flexbox layout */
+        flex-direction: column;
+        justify-content: center;
+        /* Center items horizontally */
+        align-items: center;
+        /* Center items vertically */
+        gap: 10px;
+        width: 100%;
+        /* Adjust width as needed */
+      }
+
+      #white_bg {
+        display: flex;
+        /* Use flexbox layout */
+        justify-content: center;
+        /* Center items horizontally */
+        align-items: center;
+        /* Center items vertically */
+        position: relative;
+        margin-top: -30%;
+      }
+
+      #white_top {
+        position: absolute;
+        top: 20%;
+        display: flex;
+        /* Use flexbox layout */
+        flex-direction: column;
+        justify-content: center;
+        /* Center items horizontally */
+        align-items: center;
+        /* Center items vertically */
+        gap: 10px;
+        width: 100%;
+      }
+
+      #yellow_bg {
+        position: relative;
+        margin-top: -20%;
+      }
+
+      #yellow_top {
+        position: absolute;
+        top: 10%;
+        display: flex;
+        /* Use flexbox layout */
+        flex-direction: column;
+        justify-content: center;
+        /* Center items horizontally */
+        align-items: center;
+        /* Center items vertically */
+        gap: 10px;
+        width: 100%;
+        /* Adjust width as needed */
+      }
+
+      #yellow_top p {
+        padding-left: 9%;
+        padding-right: 8%;
+        text-align: left;
+        color: rgb(1, 16, 122);
+        font-weight: bold;
+        font-size: 2.7vw;
+        margin-bottom: 0px;
+      }
+
+      #white_bg2 {
+        position: relative;
+        margin-top: -10%;
+      }
+
+      #white_bg_img12 {
+        position: relative;
+        margin-top: -15%;
+      }
+
+      #white_top2 {
+        position: absolute;
+        top: 5%;
+        display: flex;
+        /* Use flexbox layout */
+        flex-direction: column;
+        justify-content: center;
+        /* Center items horizontally */
+        align-items: center;
+        /* Center items vertically */
+        gap: 10px;
+        width: 100%;
+        /* Adjust width as needed */
+      }
+
+      #stats {
+        display: flex;
+        justify-content: center;
+        /* Center items horizontally */
+        align-items: center;
+        /* Center items vertically */
+        gap: 10px;
+        width: 100%;
+      }
+
+      #s1 {
+        position: relative;
+        display: flex;
+      }
+
+      #s2 {
+        position: relative;
+        display: flex;
+        padding-top: 1%;
+        left: 8%;
+      }
+
+      #og_bg {
+        position: relative;
+        margin-top: -2%;
+      }
+
+      #og_left {
+        position: absolute;
+        top: 10%;
+        display: flex;
+        /* Use flexbox layout */
+        flex-direction: column;
+        justify-content: center;
+        /* Center items horizontally */
+        align-items: center;
+        /* Center items vertically */
+        gap: 10px;
+        width: 100%;
+        /* Adjust width as needed */
+      }
+
+      #og_p {
+        font-size: 1.5vw;
+        color: white;
+        text-align: left;
+        margin-left: 10%;
+        margin-right: 7%;
+        font-weight: 400;
+      }
+
+      #og_p p {
+        font-weight: normal;
+        font-size: 2.8vw;
+      }
+
+      #blue_se {
+        position: relative;
+        margin-top: -150%;
+      }
+
+    
+
+      .blue_bg_left {
+        position: absolute;
+        top: 20%;
+        display: flex;
+        /* Use flexbox layout */
+        flex-direction: column;
+        justify-content: center;
+        /* Center items horizontally */
+        align-items: center;
+        /* Center items vertically */
+        gap: 10px;
+        width: 100%;
+        /* Adjust width as needed */
+      }
+
+      .blue_bg_left p {
+        margin-left: 15%;
+        margin-right: 15%;
+        color: rgb(9, 9, 134);
+        font-weight: 600;
+      }
+      #end_sec {
+        position: relative;
+        margin-top: -20%;
+      }
+      .end_bg_left {
+        position: absolute;
+        top: 40%;
+        display: flex;
+        /* Use flexbox layout */
+        flex-direction: column;
+        justify-content: center;
+        /* Center items horizontally */
+        align-items: center;
+        /* Center items vertically */
+        gap: 10px;
+        width: 100%;
+        /* Adjust width as needed */
+      }
+
+      #last_line{
+        display: flex;
+       
+        justify-content: center;
+        /* Center items horizontally */
+        align-items: center;
+        gap: 60px;
+        font-size: 2vw;
+        font-weight: 700;
+        color: white;
+        
+
+      }
+
     </style>
-</head>
-<body>
+  </head>
+
+  <body>
     <div class="container">
-        <iframe src="maestros_jacks.pdf#zoom=10" width="100%" height="600px"></iframe>
+      <img id="bg1" src="assets/BG1.png" width="30%" alt="BG1" />
+      <div id="top_bar">
+        <img src="assets/MAESTROJACKS.svg" width="10%" alt="BLUEBAR" />
+        <img src="assets/BLUEBAR.svg" width="60%" alt="BLUEBAR" />
+      </div>
+
+      <div class="comesoon">
+        <img src="assets/PUPPIES.svg" width="30%" alt="PUPPIES" />
+        <img
+          id="blu_c"
+          src="assets/DOGBLUECIRCLE.png"
+          width="25%"
+          alt="DOGBLUECIRCLE"
+        />
+
+        <img src="assets/COMINGSOON.svg" width="32%" alt="Comesoon" />
+      </div>
+
+      <div id="sw_letters">
+        <img src="assets/SWOOPYLETTERS.svg" width="60%" alt="SWOOPYLETTERS" />
+        <img src="assets/WHITEDOT.svg" width="3%" alt="WHITEDOT" />
+        <img src="assets/phonenumber.svg" width="30%" alt="phonenumber" />
+      </div>
     </div>
-</body>
+    <div class="container">
+      <img id="blue_bg_img1" src="assets/BG2.svg" width="100%" alt="BG2" />
+
+      <div class="blue_bg">
+        <img
+          id="blue_bg_img2"
+          src="assets/PUPPIES.svg"
+          width="30%"
+          alt="PUPPIES"
+        />
+
+        <img
+          id="blue_bg_img4"
+          src="assets/KEEPSCROLLING.svg"
+          width="30%"
+          alt="BLUECOLORBUTTON"
+        />
+
+        <img
+          id="blue_bg_img3"
+          src="assets/COMINGSOON.svg"
+          width="35%"
+          alt="COMINGSOON"
+        />
+      </div>
+      <div id="blue_left">
+        <img src="assets/MAESTROJACKS.svg" width="30%" alt="mj" />
+        <img src="assets/OBOEBLUEDOTS.png" width="20%" alt="OBOEBLUEDOTS" />
+        <img id="email" src="assets/EMAIL.svg" width="60%" alt="email" />
+      </div>
+      <div id="white_bg">
+        <img
+          id="white_bg_img1"
+          src="assets/BGCREAM.svg"
+          width="100%"
+          alt="BGCREAM"
+        />
+
+        <div id="white_top">
+          <img src="assets/BLUEDOT.svg" width="3%" alt="BLUEDOT" />
+          <img
+            src="assets/TEXTMEETPARENTS.svg"
+            width="50%"
+            alt="TEXTMEETPARENTS"
+          />
+
+          <div id="stats">
+            <img
+              id="s1"
+              src="assets/OBOESTATS.png"
+              width="30%"
+              alt="OBOESTATS"
+            />
+            <img
+              id="s2"
+              src="assets/SENSEISTATS2.png"
+              width="34.5%"
+              alt="SENSEISTATS2"
+            />
+          </div>
+          <img src="assets/BLUEDOT.svg" width="3%" alt="BLUEDOT" />
+        </div>
+      </div>
+
+      <div id="yellow_bg">
+        <img
+          id="yellow_bg_img1"
+          src="assets/BGYELLOWPUPS.svg"
+          width="100%"
+          alt="BGYELLOWPUPS"
+        />
+
+        <div id="yellow_top">
+          <img src="assets/BLUEDOT.svg" width="3%" alt="BLUEDOT" />
+          <img src="assets/TEXTABOUTUS.svg" width="60%" alt="TEXTABOUTUS" />
+
+          <img src="assets/HOUSEIMAGE.png" width="80%" alt="HOUSEIMAGE" />
+          <p>
+            My husband, Eric, and I have made our home on a forested hill in
+            central Pennsylvania, just south of Gettysburg. We have owned four
+            Jack Russells over 30 years. They are loving, playful and
+            persistent, just right for our lifestyle living in the woods where
+            they have lots of critters to chase and rocks to dig under.
+          </p>
+          <p>
+            Along with our Jack Russell daughter, Oboe, we are expecting a
+            litter of AKC Jack Russel Terriers due in mid-September. Oboe is the
+            first female we’ve had, and as soon as we met her, we just knew she
+            would have wonderful puppies someday. She is 2 years old with a
+            smooth black and white coat. She hails from Butterball Kennels in
+            Citra, Florida. The dad, Sensei, also from Butterball, is brown and
+            white with a rough coat. Sensei is an AKC Grand Champion. We are
+            expecting to have at least three puppies available, starting in
+            mid-November.
+          </p>
+
+          <p>
+            Oboe, and our other Jack, Capo, are formidable rodent hunters and
+            love romping around as much as they love cuddling. This breed needs
+            lots of exercise and engagement—which keeps us active and outside
+            rain or shine, snow or sleet.
+          </p>
+
+          <p>
+            About our name: Maestro Jack’s Kennels. You may have noticed that
+            Oboe and Capo are musical terms. My husband and children are all
+            musicians, and we have temporarily nicknamed Oboe’s puppies in the
+            same theme. Meet the cutest little members of Maestro Jack’s
+            orchestra: Mama Oboe and little Allegro, Poco, Banjo, and Bebop.
+          </p>
+
+          <img src="assets/BLUEDOT.svg" width="3%" alt="BLUEDOT" />
+        </div>
+      </div>
+
+      <div id="white_bg2">
+        <img
+          id="white_bg_img12"
+          src="assets/BGCREAM.svg"
+          width="100%"
+          alt="BG3"
+        />
+
+        <div id="white_top2">
+          <img src="assets/BLUEDOT.svg" width="3%" alt="BLUEDOT" />
+          <img src="assets/MEETPUPPIES.png" width="60%" alt="MEETPUPPIES" />
+
+          <div>
+            <img
+              src="assets/COMINGSOONPICBLOCK.svg"
+              width="30%"
+              alt="COMINGSOONPICBLOCK"
+            />
+            <img
+              src="assets/COMINGSOONPICBLOCK.svg"
+              width="30%"
+              alt="COMINGSOONPICBLOCK"
+            />
+          </div>
+          <div>
+            <img
+              src="assets/COMINGSOONPICBLOCK.svg"
+              width="30%"
+              alt="COMINGSOONPICBLOCK"
+            />
+            <img
+              src="assets/COMINGSOONPICBLOCK.svg"
+              width="30%"
+              alt="COMINGSOONPICBLOCK"
+            />
+          </div>
+          <img src="assets/BLUEDOT.svg" width="3%" alt="BLUEDOT" />
+        </div>
+      </div>
+
+      <div id="og_bg">
+        <img src="assets/BGRED.svg" width="100%" alt="BGRED.svg" />
+
+        <div id="og_left">
+          <img src="assets/WHITEDOT.svg" width="3%" alt="WHITEDOT" />
+          <img src="assets/FAQS.png" width="50%" alt="FAQS.png" />
+          <div id="og_p">
+            <h1>How can I buy a puppy?</h1>
+            <p>
+              Please email us at oneyejack51@gmail.com to inquire and include
+              your phone number in your message. we will give you a call to
+              discuss the litter and answer any questions. From there, we
+              require a $250 deposit to reserve a puppy. We can also arrange a
+              date and time for you pick up your new puppy once they are 8-12
+              weeks old (mid-November to mid-December).
+            </p>
+
+            <h1>How much does a puppy cost?</h1>
+            <p>
+              We are asking $1,800. We require a $250 deposit to reserve a puppy
+            </p>
+            <h1>What forms of payment do you accept?</h1>
+            <p>Money order or cash.</p>
+
+            <h1>Will the puppies be vaccinated?</h1>
+
+            <p>
+              The price includes all veterinarian care through 8-12 weeks when
+              they will be old enough to go home with you. The puppies will
+              receive all vaccinations through then.
+            </p>
+
+            <h1>Are the dogs AKC certified?</h1>
+            <p>
+              Yes, we will share all their paperwork with you when you pick them
+              up.
+            </p>
+          </div>
+
+          <img src="assets/WHITEDOT.svg" width="3%" alt="WHITEDOT" />
+        </div>
+      </div>
+
+      <div id="blue_se">
+        <img id="blue_bg2" src="assets/BG2.svg" width="100%" alt="BG2" />
+
+        <div class="blue_bg_left">
+          <img src="assets/WHITEDOT.svg" width="3%" alt="WHITEDOT" />
+
+          <img src="assets/CONTACTUS.png" width="50%" alt="CONTACTUS" />
+          <p>
+            If you are ready to welcome a beautiful Jack Russell puppy into your
+            family reach out!
+          </p>
+          <div>
+            <img src="assets/MAESTROJACKS.svg" width="30%" alt="mj" />
+            <img src="assets/OBOEBLUEDOTS.png" width="20%" alt="OBOEBLUEDOTS" />
+            <img id="email" src="assets/EMAIL.svg" width="60%" alt="email" />
+          </div>
+        </div>
+      </div>
+
+      <div id="end_sec">
+        <img
+          id="end_bg"
+          src="assets/BGDEEPBLUE.svg"
+          width="100%"
+          alt="BGDEEPBLUE"
+        />
+
+        <div class="end_bg_left">
+          <img src="assets/WHITEDOT.svg" width="3%" alt="WHITEDOT" />
+ <img src="assets/OBOEBLUEDOTS.png" width="20%" alt="OBOEBLUEDOTS" />
+          
+          <div id = "last_line">
+            <p>COPYRIGHT 2024 <P>
+
+            <p>GETTYSBURG, PA<p>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 434.98 434.98">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bbd8f2;
+      }
+
+      .cls-2 {
+        fill: #2e3192;
+      }
+
+      .cls-3 {
+        fill: #fff7ef;
+        font-family: ProximaNova-Black, 'Proxima Nova';
+        font-size: 48px;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <g id="MEET_THE_PUPPIES">
+    <g id="TEXT">
+      <g>
+        <g>
+          <rect class="cls-1" x="1" y="1" width="432.98" height="432.98" rx="11" ry="11"/>
+          <path class="cls-2" d="M422.98,2c5.51,0,10,4.49,10,10v410.98c0,5.51-4.49,10-10,10H12c-5.51,0-10-4.49-10-10V12C2,6.49,6.49,2,12,2h410.98M422.98,0H12C5.4,0,0,5.4,0,12v410.98c0,6.6,5.4,12,12,12h410.98c6.6,0,12-5.4,12-12V12c0-6.6-5.4-12-12-12h0Z"/>
+        </g>
+        <path class="cls-2" d="M.51,363.14L0,365.12v57.86C0,429.58,5.4,434.98,12,434.98h91.45L434.98,103.45V12c0-5.96-4.41-10.93-10.14-11.84h-61.36L.51,363.14Z"/>
+        <text class="cls-3" transform="translate(91.05 379.33) rotate(-45)"><tspan x="0" y="0">COMING SOON!</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

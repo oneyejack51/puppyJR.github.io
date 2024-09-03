@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 543.37 91.53">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #2e3192;
+      }
+
+      .cls-3 {
+        fill: #fff7ef;
+        font-family: ProximaNova-Black, 'Proxima Nova';
+        font-size: 48px;
+        font-weight: 800;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.07em;
+      }
+    </style>
+  </defs>
+  <g id="MEET_THE_PARENTS">
+    <g id="TEXT">
+      <g>
+        <rect class="cls-2" x="0" y="0" width="543.37" height="91.53" rx="45.76" ry="45.76"/>
+        <text class="cls-3" transform="translate(38.6 61.7)"><tspan x="0" y="0">MEET THE </tspan><tspan class="cls-5" x="246.67" y="0">P</tspan><tspan class="cls-4" x="275.08" y="0">AREN</tspan><tspan class="cls-1" x="406.31" y="0">T</tspan><tspan class="cls-4" x="434.39" y="0">S</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

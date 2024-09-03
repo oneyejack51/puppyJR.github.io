@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF.js Zoom Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 100%;
+            width: 600px; /* Adjust as needed */
+            height: 800px; /* Adjust as needed */
+            border: 1px solid #ddd;
+            background-color: #fff;
+            overflow: hidden;
+        }
+        canvas {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+    <!-- Include PDF.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.0.0/pdf.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <canvas id="pdf-canvas"></canvas>
+    </div>
+    <script>
+        // Function to load and render PDF
+        function loadAndRenderPDF(pdfUrl, scale = 0.25) {
+            // Load the PDF document
+            pdfjsLib.getDocument(pdfUrl).promise.then(pdf => {
+                // Get the first page
+                pdf.getPage(1).then(page => {
+                    // Create viewport with specified scale
+                    const viewport = page.getViewport({ scale: scale });
+
+                    // Get canvas and context
+                    const canvas = document.getElementById('pdf-canvas');
+                    const context = canvas.getContext('2d');
+                    canvas.height = viewport.height;
+                    canvas.width = viewport.width;
+
+                    // Render PDF page into canvas context
+                    const renderContext = {
+                        canvasContext: context,
+                        viewport: viewport
+                    };
+                    page.render(renderContext);
+                });
+            }).catch(error => {
+                console.error('Error loading PDF:', error);
+            });
+        }
+
+        // URL of the PDF file (set this dynamically as needed)
+        const pdfUrl = 'https://drive.google.com/file/d/1VRkZsacn8BpGta562KcDlC5ElZa3wxaD/view?usp=drive_link'; // Replace with your PDF file path
+
+        // Call the function to load and render the PDF
+        loadAndRenderPDF(pdfUrl);
+    </script>
+</body>
+</html>

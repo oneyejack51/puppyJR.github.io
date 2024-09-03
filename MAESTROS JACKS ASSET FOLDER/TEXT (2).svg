@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1763.51 619.41">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: ProximaNova-Black, 'Proxima Nova';
+        font-size: 66px;
+        font-weight: 800;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #bbd8f2;
+        stroke: #2e3192;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        font-size: 76px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: Bauhaus93, 'Bauhaus 93';
+      }
+
+      .cls-3 {
+        font-size: 102px;
+      }
+    </style>
+  </defs>
+  <g id="HOME">
+    <g id="TEXT">
+      <g>
+        <text class="cls-1" transform="translate(478.13 82.24) rotate(21.1)"><tspan x="0" y="0">M</tspan></text>
+        <text class="cls-1" transform="translate(532.04 103.75) rotate(28.26)"><tspan x="0" y="0">e</tspan></text>
+        <text class="cls-1" transform="translate(562.74 120.2) rotate(33.62)"><tspan x="0" y="0">e</tspan></text>
+        <text class="cls-1" transform="translate(591.77 139.72) rotate(38.16)"><tspan x="0" y="0">t</tspan></text>
+        <text class="cls-1" transform="translate(611.05 154.63) rotate(41.1)"><tspan x="0" y="0"> </tspan></text>
+        <text class="cls-1" transform="translate(623.49 166.15) rotate(40.86)"><tspan x="0" y="0">t</tspan></text>
+        <text class="cls-1" transform="translate(644.46 184.6) rotate(35.44)"><tspan x="0" y="0">h</tspan></text>
+        <text class="cls-1" transform="translate(679.86 209.43) rotate(29.12)"><tspan x="0" y="0">e</tspan></text>
+        <text class="cls-1" transform="translate(713.26 227.53) rotate(24.72)"><tspan x="0" y="0"> </tspan></text>
+        <text class="cls-1" transform="translate(730.5 235.89) rotate(19.95)"><tspan x="0" y="0">n</tspan></text>
+        <text class="cls-1" transform="translate(771.21 250.36) rotate(13.58)"><tspan x="0" y="0">e</tspan></text>
+        <text class="cls-1" transform="translate(809.58 259.95) rotate(6.14)"><tspan x="0" y="0">w</tspan></text>
+        <text class="cls-1" transform="translate(866.05 265.23) rotate(-1.16)"><tspan x="0" y="0">e</tspan></text>
+        <text class="cls-1" transform="translate(904.62 264.23) rotate(-6.79)"><tspan x="0" y="0">s</tspan></text>
+        <text class="cls-1" transform="translate(939.04 259.88) rotate(-11.59)"><tspan x="0" y="0">t</tspan></text>
+        <text class="cls-1" transform="translate(965.37 254.3) rotate(-15.11)"><tspan x="0" y="0"> </tspan></text>
+        <text class="cls-1" transform="translate(984.96 250.05) rotate(-21.5)"><tspan x="0" y="0">m</tspan></text>
+        <text class="cls-1" transform="translate(1043.27 225.92) rotate(-29.45)"><tspan x="0" y="0">e</tspan></text>
+        <text class="cls-1" transform="translate(1078.17 206.82) rotate(-37.35)"><tspan x="0" y="0">m</tspan></text>
+        <text class="cls-1" transform="translate(1126.21 167.91) rotate(-42.63)"><tspan x="0" y="0">b</tspan></text>
+        <text class="cls-1" transform="translate(1154.24 141.81) rotate(-37.08)"><tspan x="0" y="0">e</tspan></text>
+        <text class="cls-1" transform="translate(1182.23 120.94) rotate(-32.29)"><tspan x="0" y="0">r</tspan></text>
+        <text class="cls-1" transform="translate(1203.23 107.49) rotate(-27.94)"><tspan x="0" y="0">s</tspan></text>
+        <text class="cls-1" transform="translate(1231.29 92.87) rotate(-24.24)"><tspan x="0" y="0"> </tspan></text>
+        <text class="cls-1" transform="translate(1245.75 85.9) rotate(-20.11)"><tspan x="0" y="0">o</tspan></text>
+        <text class="cls-1" transform="translate(1280.76 73.34) rotate(-15.39)"><tspan x="0" y="0">f</tspan></text>
+        <text class="cls-2" transform="translate(1303.79 67.06) rotate(-12.12)"><tspan x="0" y="0"> </tspan></text>
+        <text class="cls-3" transform="translate(467.48 241.57) rotate(21.15)"><tspan x="0" y="0">M</tspan></text>
+        <text class="cls-3" transform="translate(541.64 271.09) rotate(31.7)"><tspan x="0" y="0">a</tspan></text>
+        <text class="cls-3" transform="translate(590.54 301.63) rotate(39.63)"><tspan x="0" y="0">e</tspan></text>
+        <text class="cls-3" transform="translate(634.51 339.76) rotate(37.65)"><tspan x="0" y="0">s</tspan></text>
+        <text class="cls-3" transform="translate(667.93 365.12) rotate(31.45)"><tspan x="0" y="0">t</tspan></text>
+        <text class="cls-3" transform="translate(700.96 385.01) rotate(25.6)"><tspan x="0" y="0">r</tspan></text>
+        <text class="cls-3" transform="translate(735.76 402.15) rotate(17.73)"><tspan x="0" y="0">o</tspan></text>
+        <text class="cls-3" transform="translate(796.4 420.32) rotate(9.39)"><tspan x="0" y="0">’</tspan></text>
+        <text class="cls-3" transform="translate(838.86 427.02) rotate(2.85)"><tspan x="0" y="0">s</tspan></text>
+        <text class="cls-3" transform="translate(880.11 428.61) rotate(-2.51)"><tspan x="0" y="0"> </tspan></text>
+        <text class="cls-3" transform="translate(912.6 428.66) rotate(-11.41)"><tspan x="0" y="0">O</tspan></text>
+        <text class="cls-3" transform="translate(994.52 409.6) rotate(-21.04)"><tspan x="0" y="0">r</tspan></text>
+        <text class="cls-3" transform="translate(1030.88 396.06) rotate(-28.92)"><tspan x="0" y="0">c</tspan></text>
+        <text class="cls-3" transform="translate(1086.98 364.22) rotate(-38.63)"><tspan x="0" y="0">h</tspan></text>
+        <text class="cls-3" transform="translate(1129.48 327.09) rotate(-40.59)"><tspan x="0" y="0">e</tspan></text>
+        <text class="cls-3" transform="translate(1171.12 291.98) rotate(-33.47)"><tspan x="0" y="0">s</tspan></text>
+        <text class="cls-3" transform="translate(1200.84 272.33) rotate(-28.22)"><tspan x="0" y="0">t</tspan></text>
+        <text class="cls-3" transform="translate(1229.62 256.84) rotate(-23.28)"><tspan x="0" y="0">r</tspan></text>
+        <text class="cls-3" transform="translate(1257.54 243.81) rotate(-16.41)"><tspan x="0" y="0">a</tspan></text>
+        <text class="cls-3" transform="translate(1313.49 228.22) rotate(-10.07)"><tspan x="0" y="0"> </tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

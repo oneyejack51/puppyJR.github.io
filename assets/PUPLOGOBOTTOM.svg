@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 601.02 412.95">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Bauhaus93, 'Bauhaus 93';
+        font-size: 76px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff7ef;
+      }
+    </style>
+  </defs>
+  <g id="FINAL">
+    <g id="LOGO">
+      <g>
+        <text class="cls-1" transform="translate(0 393.95)"><tspan x="0" y="0">MAESTRO’S JACKS</tspan></text>
+        <g>
+          <g>
+            <circle class="cls-2" cx="132.16" cy="228.29" r="7.88"/>
+            <circle class="cls-2" cx="468.87" cy="228.29" r="7.88"/>
+          </g>
+          <image width="526" height="570" transform="translate(182.31 73.38) scale(.45)" xlink:href="../oboe 2.png"/>
+        </g>
+        <circle class="cls-2" cx="301.68" cy="17.42" r="17.42"/>
+      </g>
+    </g>
+  </g>
+</svg>

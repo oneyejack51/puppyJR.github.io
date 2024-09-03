@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.6 315.88">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d95829;
+      }
+
+      .cls-2 {
+        fill: #2e3192;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        opacity: .5;
+      }
+
+      .cls-5 {
+        stroke: #d95829;
+      }
+
+      .cls-5, .cls-6 {
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-7 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-8 {
+        fill: #fff7ef;
+        font-family: ProximaNova-BoldIt, 'Proxima Nova';
+        font-size: 27px;
+        font-style: italic;
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke: #d9ad5b;
+        stroke-linecap: round;
+      }
+
+      .cls-9 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.05em;
+      }
+    </style>
+  </defs>
+  <g id="KEEP_SCROLLING">
+    <g id="TEXT">
+      <g>
+        <ellipse class="cls-4" cx="238.3" cy="157.94" rx="251.75" ry="135.37" transform="translate(-42.33 103.39) rotate(-22.53)"/>
+        <ellipse class="cls-3" cx="238.3" cy="157.94" rx="214.72" ry="115.46" transform="translate(-42.33 103.39) rotate(-22.53)"/>
+        <g>
+          <path class="cls-5" d="M101.42,103.22h273.75c27.33,0,49.52,22.19,49.52,49.52v10.39c0,27.33-22.19,49.52-49.52,49.52H101.42c-27.33,0-49.52-22.19-49.52-49.52v-10.39c0-27.33,22.19-49.52,49.52-49.52Z" transform="translate(-42.25 102.93) rotate(-22.44)"/>
+          <rect class="cls-1" x="67.17" y="114.72" width="342.25" height="86.43" rx="42.17" ry="42.17" transform="translate(-42.25 102.93) rotate(-22.44)"/>
+          <text class="cls-8" transform="translate(92.76 212.78) rotate(-22.44)"><tspan x="0" y="0">WE H</tspan><tspan class="cls-7" x="67.17" y="0">A</tspan><tspan x="84.29" y="0">VE </tspan><tspan class="cls-9" x="125.41" y="0">J</tspan><tspan class="cls-10" x="137.73" y="0">A</tspan><tspan x="154.82" y="0">CK RUSSELL</tspan><tspan x="33.49" y="32.4">TERRIER PUPPIES!!!</tspan></text>
+        </g>
+        <g>
+          <polygon class="cls-2" points="275.87 252.07 295.45 211.6 233.39 237.35 275.87 252.07"/>
+          <polygon class="cls-2" points="198.18 64.87 178.61 105.34 240.66 79.59 198.18 64.87"/>
+          <polygon class="cls-2" points="449.16 72.14 411.06 58.27 432.07 108.91 449.16 72.14"/>
+          <polygon class="cls-2" points="28.64 246.63 66.73 260.49 45.73 209.86 28.64 246.63"/>
+        </g>
+        <g>
+          <path class="cls-6" d="M159.9,104.45c-30.08-8.2-48.27-3.21-59.3,2.83-19.94,10.91-17.2,25.62-42.13,48.12-26.3,23.74-49.32,25.4-49.44,38.26-.05,5.13,3.53,12.92,23.11,22.67"/>
+          <path class="cls-6" d="M220.8,251.22c-15.44,27.08-31.82,36.44-43.89,39.98-21.81,6.41-30.28-5.92-63.82-4.16-35.38,1.85-52.81,16.97-62,7.99-3.66-3.58-6.65-11.62.28-32.37"/>
+          <path class="cls-6" d="M255.8,64.66c15.44-27.08,31.82-36.44,43.89-39.98,21.81-6.41,30.28,5.92,63.82,4.16,35.38-1.85,52.81-16.97,62-7.99,3.66,3.58,6.65,11.62-.28,32.37"/>
+          <path class="cls-6" d="M316.7,211.43c30.08,8.2,48.27,3.21,59.3-2.83,19.94-10.91,17.2-25.62,42.13-48.12,26.3-23.74,49.32-25.4,49.44-38.26.05-5.13-3.53-12.92-23.11-22.67"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
